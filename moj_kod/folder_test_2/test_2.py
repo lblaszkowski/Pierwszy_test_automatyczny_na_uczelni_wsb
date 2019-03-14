@@ -25,24 +25,24 @@ class TestWSB(unittest.TestCase):
         driver.switch_to.window(driver.window_handles[1])
         driver.get('http://www.wp.pl/')
         # driver.get_screenshot_as_file(os.getcwd()+'\\'+'1.png') //
-        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/img/'+'1.png')
+        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/screen/'+'1.png')
         driver.switch_to.window(main_page)
         driver.execute_script("window.open('');")
         # driver.execute_script("$(window.open(''))")
         driver.switch_to.window(driver.window_handles[2])
         driver.get('http://www.google.pl/')
         # driver.get_screenshot_as_file(os.getcwd() + '\\' + '2.png')
-        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/img/'+'2.png')
+        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/screen/'+'2.png')
         driver.switch_to.window(main_page)
         driver.execute_script("window.open('');")
         # driver.execute_script("$(window.open(''))")
         driver.switch_to.window(driver.window_handles[3])
         driver.get('http://www.google.pl/')
         # driver.get_screenshot_as_file(os.getcwd() + '\\' + '3.png')
-        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/img/'+'3.png')
+        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/screen/'+'3.png')
         driver.switch_to.window(main_page)
         # driver.get_screenshot_as_file(os.getcwd() + '\\' + '0.png')
-        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/img/'+'0.png')
+        driver.get_screenshot_as_file('C:/Pierwszy_test_automatyczny_na_uczelni_wsb/moj_kod/folder_test_2/screen/'+'0.png')
 
 
     @classmethod
